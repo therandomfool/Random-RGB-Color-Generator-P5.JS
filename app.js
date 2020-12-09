@@ -1,7 +1,7 @@
 let past=[255,255,255];
 function setup() {
     createCanvas(windowWidth, windowHeight)
-    textSize(50);
+    textSize(30);
     textStyle(BOLD);
     textAlign(CENTER);
     text('*#*# Click Anywhere To Change Background Color #*#*', width/2, height/2 -100);
@@ -26,7 +26,7 @@ function mouseClicked() {
 
     background(r, g, b);
     // document.getElementById("hex").innerHTML = '<b>R: </b>' + msg[0] + '<b>G: </b>' + msg[1] + '<b>B: </b>' + msg[2];
-    textSize(50);
+    textSize(30);
     textStyle(BOLD);
     textAlign(CENTER);
     text('Click Anywhere To Change Background Color', width/2, height/2 -100);
